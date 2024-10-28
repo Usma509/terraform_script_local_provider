@@ -1,5 +1,5 @@
 resource "local_file" "pet" {
-filename = "/home/ec2-user/pets.txt"
+filename = "/home/ubuntu/pets.txt"
 content = "we love pets!"
 }
 resource "random_pet" "mypet" {
